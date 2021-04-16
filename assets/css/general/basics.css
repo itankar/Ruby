@@ -10,7 +10,7 @@
     --font-base: "Open Sans", sans-serif;
     --font-alt: dosis, sans-serif;
     --animation-base: ease-in-out;
-    --shadow-base: 0 0 5px rgba(0, 0, 0, 0.3);
+    --shadow-base: 0 0 5px rgba(0, 0, 0, 0.05);
 }
 
 html {
