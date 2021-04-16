@@ -1,12 +1,12 @@
 .u-shadow {
     overflow: hidden;
-    border-radius: 5px;
+    border-radius: 3px;
     box-shadow: var(--shadow-base);
-    transition: box-shadow 0.1s var(--animation-base);
+    transition: box-shadow 0.01s var(--animation-base);
 }
 
 .u-shadow:hover {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
 }
 
 .u-plain-list {
@@ -49,7 +49,7 @@
 }
 
 .u-hover-item {
-    transition: opacity 0.3s var(--animation-base);
+    transition: opacity 0.1s var(--animation-base);
 }
 
 .u-hover-wrapper:hover .u-hover-item {

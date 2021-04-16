@@ -10,7 +10,7 @@
     --font-base: "Open Sans", sans-serif;
     --font-alt: dosis, sans-serif;
     --animation-base: ease-in-out;
-    --shadow-base: 0 0 10px rgba(0, 0, 0, 0.05);
+    --shadow-base: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 html {
@@ -32,7 +32,7 @@ body {
     word-break: break-word;
     background-color: var(--light-gray-color);
     background-color: #f9f9f9;
-    transition: background-color 0.3s var(--animation-base);
+    transition: background-color 0.1s var(--animation-base);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }

@@ -25,7 +25,7 @@
     z-index: 1;
     background-color: var(--black-color);
     opacity: 0.4;
-    transition: opacity 0.2s var(--animation-base);
+    transition: opacity 0.1s var(--animation-base);
 }
 
 .navigation-item:hover::before {

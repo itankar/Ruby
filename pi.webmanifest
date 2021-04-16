@@ -1,0 +1,16 @@
+{
+    "name": "Piyush Itankar",
+    "short_name": "π’s notes",
+    "description": "",
+    "icons": [
+      {
+        "src": "/apple-touch-icon-precomposed-152.png",
+        "sizes": "256x256",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "/",
+    "display": "fullscreen",
+    "theme_color": "#FFFFFF",
+    "background_color": "#FFFFFF"
+}
