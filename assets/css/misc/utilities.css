@@ -114,3 +114,13 @@
 .u-text-format > *:last-child > *:last-child {
     margin-bottom: 0 !important;
 }
+
+.flash {
+  animation: flash 1s steps(1, end) infinite;
+}
+
+@keyframes flash {
+  0% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 1;}
+}
