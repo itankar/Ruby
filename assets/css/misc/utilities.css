@@ -1,11 +1,13 @@
 .u-shadow {
     overflow: hidden;
     box-shadow: var(--shadow-base);
-    transition: box-shadow 0.01s var(--animation-base);
+    transition-duration: 0.4s;
 }
 
 .u-shadow:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.005);
+    box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+    transition-duration: 0.4s;
 }
 
 .u-plain-list {
