@@ -1,13 +1,20 @@
+.blog-post {
+    overflow: hidden;
+    box-shadow: 0 0 30px rgb(0 0 0 / 20%);
+    transition-duration: 3s;
+    z-index: 1000;
+}
+
 .u-shadow {
     overflow: hidden;
     box-shadow: var(--shadow-base);
-    transition-duration: 0.4s;
+    transition-duration: 2s;
 }
 
 .u-shadow:hover {
-    transform: scale(1.005);
-    box-shadow: 0 0 15px rgb(0 0 0 / 20%);
-    transition-duration: 0.4s;
+    box-shadow: 0 0 30px rgb(0 0 0 / 20%);
+    transition-duration: 1s;
+    z-index: 1000;
 }
 
 .u-plain-list {
